@@ -1,13 +1,13 @@
-import { Route, Routes } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import ProtectedRoute from './components/ProtectedRoute'
-import HomePage from './pages/HomePage'
-import LoginPage from './pages/LoginPage'
-import RegisterPage from './pages/RegisterPage'
-import CartPage from './pages/CartPage'
-import OrdersPage from './pages/OrdersPage'
-import AdminPage from './pages/AdminPage'
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import ProtectedRoute from "./components/ProtectedRoute";
+import HomePage from "./pages/HomePage";
+import LoginPage from "./pages/LoginPage";
+import RegisterPage from "./pages/RegisterPage";
+import CartPage from "./pages/CartPage";
+import OrdersPage from "./pages/OrdersPage";
+import AdminPage from "./pages/AdminPage";
 
 export default function App() {
   return (
@@ -28,5 +28,5 @@ export default function App() {
       </Routes>
       <Footer />
     </div>
-  )
+  );
 }
